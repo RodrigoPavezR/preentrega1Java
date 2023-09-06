@@ -57,7 +57,7 @@ const cotizador = () => {
 
         let precioTotal = subtotal - descontarValor;
 
-        alert("El precio total de tu celular es de " + precioTotal);
+        alert("Perfecto! El precio total de tu celular es de " + precioTotal);
 
         repetir = confirm("¿Deseas cotizar otro modelo?");
         if (repetir != true) {
